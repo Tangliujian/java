@@ -1,0 +1,32 @@
+{
+  "name": "javayue.github.io",
+  "version": "1.0.0",
+  "description": "java面试那些事",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javayue/javayue.github.io.git"
+  },
+  "keywords": [
+    "java面试那些事",
+    "java",
+    "javascript",
+    "vue",
+    "vuepress"
+  ],
+  "author": "java曰",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javayue/javayue.github.io/issues"
+  },
+  "homepage": "https://github.com/javayue/javayue.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
